@@ -1,38 +1,166 @@
-.App {
+.home-header h1 {
+  font-family: "Akzidenz-Grotesk BQ";
+  font-size: 42px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1.4px;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+}
+
+.page-border {
+  position: fixed;
+  background: #fff;
+  transform: translateZ(0);
+  z-index: 3;
+}
+
+.page-border.border-top {
+  top: 0px;
+  left: 0px;
+  height: 15px;
+  width: 100%;
+}
+
+.page-border.border-left {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 100%;
+}
+
+.page-border.border-right {
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 15px;
+}
+
+.page-border.border-bottom {
+  bottom: 0px;
+  left: 0px;
+  height: 15px;
+  width: 100%;
+}
+
+.home-background {
+  display: inline-flex;
+  width: 100%;
+  position: relative;
+}
+
+.home-header .header {
+  transition-delay: 0ms;
+  letter-spacing: 4px;
+  padding-top: 50px;
+}
+
+.home-header .header-nav {
+  -webkit-font-smoothing: initial;
+  font-family: 'GT Sectra Display Light';
+  font-weight: lighter;
+  font-size: 104px;
+  text-align: center;
+  margin-top: 46vh;
+  letter-spacing: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.home-header .header-nav a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.home-header .header-nav .nav-spacer {
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background: #fff;
+  margin-bottom: 23px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.home-header .header-nav .stories-header:hover span, .home-header .header-nav .countries-header:hover span, .home-header .header-nav .series-header:hover span, .home-header .header-nav .stories-header.active span, .home-header .header-nav .countries-header.active span, .home-header .header-nav .series-header.active span {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+a:active,
+a:hover {
+  outline: 0;
+  }
+
+.home-header .header-nav a span {
+  transition: all 300ms ease-out;
+  position: absolute;
+  width: 100%;
+  bottom: 4px;
+  height: 5px;
+  background: #ee534a;
+  left: 0;
+  transform: translateY(7px);
+  opacity: 0;
+}
+
+.background-item-1 {
+  background-image: url("assets/images/home-1.jpg");  
+  background-size:cover;  
+  height: 100%; 
+}
+
+.background-item-2 {
+  background-image: url("assets/images/home-2.jpg");  
+  background-size:cover;  
+  height: 100%;  
+}
+
+.background-item-3 {
+  background-image: url("assets/images/home-3.jpg");  
+  background-size:cover;  
+  height: 100%; 
+}
+
+.background-item-4 {
+  background-image: url("assets/images/home-4.jpg");  
+  background-size:cover;  
+  height: 100%;  
+}
+
+.home-header .split {
+  position: absolute;
+  width: 25%;
+  background: #000;
+  height: calc(100vh - 15px);
+  float: left;
+  position: relative;
+  transform: translateZ(0);
+}
+
+
+.container-header {
+  font-family: "Akzidenz-Grotesk BQ";
+  padding-bottom: 35px;
+  padding-top: 55px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-header h1 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 9px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-header h2 {
+  font-size: 52px;
+  letter-spacing: 5px;
+  margin-top: 0px
 }
