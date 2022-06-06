@@ -1,4 +1,4 @@
-import './App.css';
+import './App.less';
 
 function App() {
   return (
@@ -22,11 +22,11 @@ function App() {
               </div>     
               <h1 className="history-war">ИСТОРИИ О ВОЙНЕ</h1>               
               <nav className="header-nav">
-                  <a href="#" className="stories-header active">Stories<span></span></a>
+                  <a href="#" className="stories-header active">Люди<span></span></a>
                     <span className="nav-spacer"></span>
-                  <a className="countries-header" href="/countries">Countries<span></span></a>
+                  <a className="countries-header" href="/countries">Истории<span></span></a>
                     <span className="nav-spacer"></span>
-                  <a className="series-header" href="#">Series<span></span></a>
+                  <a className="series-header" href="#">Война<span></span></a>
                 </nav>                   
                 </div>
           </section>
@@ -44,8 +44,17 @@ function App() {
 									  <div className="post info-1"></div>  
 									</div>                   
 								</div>													
-								  <p>(11/12) “My daughter Emily was born on February 2nd, 2013. Then three weeks later I started at Stonybrook. None of it was easy. Nicollete and I struggled. She had postpartum, and I had no idea how to be a father. I slipped so many times. I self-sabotaged. But DiCo has got this parenting instinct. Whenever he didn’t hear from me for awhile, that’s when he’d show up. He’d send me money, or even just a card to say he was thinking about me. I got my GPA up to a 3.5. I ended up becoming the R.A. of my dorm. And during my junior year Stonybrook decided to highlight my story in a fundraising campaign. They put my picture up on billboards, and busses. They flew in some producers from California, and filmed a video. They made me seem so great, but self-made is bullshit. Not when you grow up like me. There were so many people who helped me. It wasn’t just DiCo. But if DiCo doesn’t come, I never get to those other people. DiCo is number one. And not just for me, either. Our whole team is doing big things. Marvin’s at Columbia law school. Armani is an actor. Jasly went to Harvard. Ksewa is a screenwriter in Los Angeles. Rollins is a director for charter schools in Connecticut. Maybe some of that happens without DiCo. But not for me. If it wasn’t for DiCo I’d have been in that cell with Koreh. I’m a respiratory therapist now, and my very first year I was making more money than DiCo. It got me thinking: ‘How did DiCo do it?’ A few years ago I asked him: ‘How could you afford to help us so much, working as a public school teacher?’ ‘I couldn’t,’ he said. ‘But I saw all of you as an investment. And I thought if I poured enough into you, you would help me give back to the world.’ A few years ago DiCo started something called the Brooklyn Debate League. He’s trying to start debate programs in urban areas: find coaches, provide resources, subsidize tournaments. At first I was just the biggest donor. But now I’m a board member, and I’m right there with him: visiting schools, giving speeches. I bet DiCo never could have imagined it. Back when I was a crazy ninth grader, jumping on tables. 
-                  I bet DiCo never thought in a million years that one day we’d be coaching together.”</p>
+								  <p>24 февраля около 2х часов ночи я встала попить воды и выглянула в окно. На улице не горели фонари и темнота была какой-то нагнетающей. С неприятным ощущением я пошла спать, а в 5 часов я уже подскочила на кровати от звуков взрывов и увидела мужа, стоящего возле окна. Мы взяли нашего 3х месячного ребенка и переместились в зал, подальше от окон. 
+Через какое-то время во всех пабликах начали писать, что через час будет массовый обстрел города и всем необходимо пройти в укрытия.
+Муж собрал пару рюкзаков в документами, подгузниками и другими необходимыми вещами для ребёнка, а я до последнего не могла поверить, что нам придется покинуть дом. Немного прийдя в себя, я доложила необходимые на мой взгляд вещи и собрала ребёнка. Мы приняли решение пройти к метро, заодно заглянуть в подвал нашего дома. Осмотрев подвал, мы поняли, что единственным выходом для нас на данный момент - спуститься в метро.
+Когда мы спустились в метро, там уже было полно народа, кто-то сидел просто на полу, кто-то на каремате, другие люди разместились просто на ступенях. 
+Как оказалось наши друзья, переехавшие на днях в наш район, тоже спустились в метро. В метро мы провели около 5 часов. Находиться там, да ещё и с маленьким ребенком было тяжело морально и физически. Мы все вместе приняли решение идти ночевать к друзьям, домой возвращаться нам показалось не безопасным, так как наша квартира находится на 9 этаже и дом расположен возле моста.
+На утро друзья приняли решение выезжать из города электричкой, а дальше смотреть по ситуации и решать куда ехать дальше. Для нас такая дорога была нереальной с ребёнком, поэтому мы решили остаться в квартире у друзей.
+Мы перебрались в коридор на пол и смогли наконец-то поспать пару часов за все время с начала войны. Запасов еды, воды, подгузников у нас было достаточно и мы были более-менее спокойны насколько это возможно во время войны. Но с каждым днём обстановка обострялась, ракетные удары стали наносить не только по военным объектам, но и по жилым домам. Последней точкой в нашем терпении на 6й день войны для нас стали истребители. Когда они пролетали над городом, тряслись стены дома. И мы поняли, что больше оставаться в городе у нас нет ни сил, ни желания. В этот вечер было много переписок и созвонов с друзьями, которые ещё оставались в городе. В один момент мы категорично решали, что завтра с утра выезжаем, а через час нас окутывал страх и паника, и мы думали остаться и ещё посмотреть на ситуацию. Ночь перед выездом из Харькова была бессонной и очень волнительной. Сам факт поездки с грудным ребенком в неизвестном направлении, пробки по всему маршруту, проблемы с топливом, ещё и истории обстрела гражданских автомобилей.
+Наше путешествие началось с квеста вызвать такси, так как нам нужно было добраться в другой район к друзьям, которые согласились взять нас с собой в свою машину. Час волнения, но такси таки приехало к нам. 
+В пути к нашему конечному пункту назначения мы провели 4 дня, останавливаясь каждую ночь на ночёвку. За это время мы научились в движении менять ребенку подгузник, развлекать, кормить и укладывать спать.
+В каждом городе, где мы останавливались на ночёвку, нас встречали добрые, приветливые люди. Кто-то принимал нас у себя в доме, кто-то в квартире, везде нас кормили, выслушивали наши страшные истории, желали нам мира и отправляли в путь утром.
+Сейчас мы живём на западе Украины, и о войне нам напоминают только сирены тревоги. Чтобы прийти в себя и начать хоть как-то возвращатьсч к жизни нам понадобилось больше месяца. Но страх нахождения возле окон, остался до сих пор.</p>
 							</a>
             </div>
             <div className="col-sm-6">
@@ -55,8 +64,12 @@ function App() {
 									  <div className="post info-2"></div>  
 									</div>                   
 								</div>														
-								<p>(11/12) “My daughter Emily was born on February 2nd, 2013. Then three weeks later I started at Stonybrook. None of it was easy. Nicollete and I struggled. She had postpartum, and I had no idea how to be a father. I slipped so many times. I self-sabotaged. But DiCo has got this parenting instinct. Whenever he didn’t hear from me for awhile, that’s when he’d show up. He’d send me money, or even just a card to say he was thinking about me. I got my GPA up to a 3.5. I ended up becoming the R.A. of my dorm. And during my junior year Stonybrook decided to highlight my story in a fundraising campaign. They put my picture up on billboards, and busses. They flew in some producers from California, and filmed a video. They made me seem so great, but self-made is bullshit. Not when you grow up like me. There were so many people who helped me. It wasn’t just DiCo. But if DiCo doesn’t come, I never get to those other people. DiCo is number one. And not just for me, either. Our whole team is doing big things. Marvin’s at Columbia law school. Armani is an actor. Jasly went to Harvard. Ksewa is a screenwriter in Los Angeles. Rollins is a director for charter schools in Connecticut. Maybe some of that happens without DiCo. But not for me. If it wasn’t for DiCo I’d have been in that cell with Koreh. I’m a respiratory therapist now, and my very first year I was making more money than DiCo. It got me thinking: ‘How did DiCo do it?’ A few years ago I asked him: ‘How could you afford to help us so much, working as a public school teacher?’ ‘I couldn’t,’ he said. ‘But I saw all of you as an investment. And I thought if I poured enough into you, you would help me give back to the world.’ A few years ago DiCo started something called the Brooklyn Debate League. He’s trying to start debate programs in urban areas: find coaches, provide resources, subsidize tournaments. At first I was just the biggest donor. But now I’m a board member, and I’m right there with him: visiting schools, giving speeches. I bet DiCo never could have imagined it. Back when I was a crazy ninth grader, jumping on tables. 
-                 I bet DiCo never thought in a million years that one day we’d be coaching together.”</p>
+								<p>Моя история войны началась с 2014 года.Я вышла из дома г.Антрацита Луганской области и увидела что по ростовской трассе шли колонны машин с  русскими военными.За моим домом были поставлены грады, которые стреляли в соседние города.На предприятиях города были развешены русские флаги.Я собрала ручную кладь и выехала в Харьков через Россию,по Украине проезда не было,шли бои.Российские граждане, ошарашили своим взглядом на происходящее: "Правильно что бежите с Украины, эти бендеры ещё и на своем языке заставят вас говорить..." В споры я не вступала, пропаганда сделала свое дело, особенно если и отсутствует интеллект.
+Харьков гостепреимно встретил  меня.Жизнь постепенно налаживалась.
+И вот прошло восемь лет.
+Писали что будет война, мозг это не воспринимал.Однажды проснулись от шума соседей под окном, весть была ужасная: " Война".
+Хотелось надеяться, что это продлиться недолго, что такое невозможно в 21 веке и  весь мир должен остановить этот наглый геноцид.
+Но это были всего лишь наши надежды.2 марта 2022года  резко засвистело на улице и комната озарилась ярким пламенем.Потом были взрывы 9 выпущенных ракет по Холодной горе.Мы быстро собрали вещи и отправились в Кременчуг.</p>
 								            
 							</a>
             </div>
