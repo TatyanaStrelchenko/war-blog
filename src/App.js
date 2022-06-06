@@ -1,17 +1,18 @@
-import './App.css';
+import './App.less';
 
 function App() {
   return (
     <div className="App">
       <main>
-        <section class="hero-sections">
-          <div class="container">
+        <section className="hero-sections">
+          <div className="container">
             hero
           </div>
         </section>
-        <section class="hero-sections">
-          <div class="container">
-            story
+        <section className="hero-sections">
+          <div className="container">
+            story 
+            test
           </div>
         </section>
       </main>
