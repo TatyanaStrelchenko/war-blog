@@ -1,85 +1,55 @@
-.home-header h1 {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none; 
+  cursor: default;
+}
+
+.home-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  width: 100%;   
+  height: 100%;
+  z-index: -1;
+}
+
+section.hero-sections {
+  height: 650px;
+  position: relative;
+}
+
+.history-war {
   font-family: "Akzidenz-Grotesk BQ";
   font-size: 42px;
   text-align: center;
   color: #fff;
-  letter-spacing: 1.4px;
-  height: 100vh;
-  overflow: hidden;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  right: 0;
+  letter-spacing: 1.4px; 
+  overflow: hidden;     
+  padding-top: 50px;  
 }
 
-.page-border {
-  position: fixed;
-  background: #fff;
-  transform: translateZ(0);
-  z-index: 3;
-}
 
-.page-border.border-top {
-  top: 0px;
-  left: 0px;
-  height: 15px;
-  width: 100%;
-}
-
-.page-border.border-left {
-  top: 0px;
-  left: 0px;
-  width: 15px;
-  height: 100%;
-}
-
-.page-border.border-right {
-  top: 0px;
-  right: 0px;
-  height: 100%;
-  width: 15px;
-}
-
-.page-border.border-bottom {
-  bottom: 0px;
-  left: 0px;
-  height: 15px;
-  width: 100%;
-}
-
-.home-background {
-  display: inline-flex;
-  width: 100%;
-  position: relative;
-}
-
-.home-header .header {
-  transition-delay: 0ms;
-  letter-spacing: 4px;
-  padding-top: 50px;
-}
-
-.home-header .header-nav {
-  -webkit-font-smoothing: initial;
+ .header-nav {  
   font-family: 'GT Sectra Display Light';
   font-weight: lighter;
   font-size: 104px;
   text-align: center;
-  margin-top: 46vh;
-  letter-spacing: 0px;
-  position: absolute;
-  left: 0;
-  right: 0;
+  margin-top: 26vh;
+  letter-spacing: 0px;  
 }
 
-.home-header .header-nav a {
+ .header-nav a {
   color: #fff;
-  text-decoration: none;
-  display: inline-block;
+  text-decoration: none;  
   position: relative;
 }
 
-.home-header .header-nav .nav-spacer {
+.header-nav .nav-spacer {
   display: inline-block;
   width: 60px;
   height: 1px;
@@ -89,7 +59,7 @@
   margin-right: 0px;
 }
 
-.home-header .header-nav .stories-header:hover span, .home-header .header-nav .countries-header:hover span, .home-header .header-nav .series-header:hover span, .home-header .header-nav .stories-header.active span, .home-header .header-nav .countries-header.active span, .home-header .header-nav .series-header.active span {
+.header-nav :hover span {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -99,7 +69,7 @@ a:hover {
   outline: 0;
   }
 
-.home-header .header-nav a span {
+.header-nav a span {
   transition: all 300ms ease-out;
   position: absolute;
   width: 100%;
@@ -135,13 +105,10 @@ a:hover {
   height: 100%;  
 }
 
-.home-header .split {
-  position: absolute;
+.split {  
   width: 25%;
   background: #000;
-  height: calc(100vh - 15px);
-  float: left;
-  position: relative;
+  height: calc(100vh - 15px);  
   transform: translateZ(0);
 }
 
@@ -153,14 +120,56 @@ a:hover {
   text-align: center;
 }
 
-.container-header h1 {
+.info-sections {  
+  width: 100%;
+}
+
+.info-sections h1 {
   font-size: 20px;
   letter-spacing: 3px;
   margin-bottom: 9px;
 }
 
-.container-header h2 {
+.info-sections h2 {
   font-size: 52px;
   letter-spacing: 5px;
   margin-top: 0px
 }
+
+
+.info-1 {
+  background-image: url("assets/images/post-1.jpg");  
+  background-size:cover;  
+  height: 600px;  
+  width: 100%;
+}
+
+.info-2 {
+  background-image: url("assets/images/post-2.jpg");  
+  background-size:cover;  
+  height: 600px;  
+  width: 100%;
+}
+
+ 
+.row {
+  display: flex;
+  padding: 0 10px;
+}
+
+.col-sm-6 {
+  width: 50%;
+  margin: 0 10px;
+}
+
+.col-sm-6 p {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+    font-family: 'Merriweather';
+    font-size: 25px;
+    line-height: 28px;    
+    overflow: hidden;
+    color: #000;
+}
+
