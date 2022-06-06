@@ -38,7 +38,7 @@ function App() {
               </div> 
               <div className="row">
                 <div className="col-sm-6">
-                  <a href="#" class="hover-transform-block">
+                  <a href="#" class="hover-image-scale">
 								<div class="transform-block">
 									<div class="img-holder">
 									  <div className="post info-1"></div>  
