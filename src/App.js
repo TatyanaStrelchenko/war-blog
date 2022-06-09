@@ -142,10 +142,12 @@ function App() {
             </div>       
         </section>
         <section className="footer">
-          <div className="img-ukraine"></div>           
-          <p className="footer-text">Більше історій про Війну</p> 
-            <div className="social-footer">             
-            </div>
+         <div className="container">
+         <iframe width="1200px" height="700px" src="https://www.youtube.com/embed/EEDFwUl08M8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              {/* <p className="footer-text">Більше історій про Війну</p> 
+                <div className="social-footer">             
+                </div>  */}
+            </div> 
         </section>
       </div> 
     </div>
