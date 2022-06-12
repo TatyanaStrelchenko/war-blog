@@ -9,8 +9,8 @@ const Stories = () => {
         <section className="info-sections" id="section1">        
             <div className="container">   
                 <div className="container-header"> 
-                    <h1 className="post-container-header">ОСТАННІ ІСТОРІЇ</h1>
-                    <h2 className="post-container-subheader">LATEST STORIES</h2>    
+                    <h1 className="post-container-header">истории Харьковских переселенцев</h1>
+                    <h2 className="post-container-subheader">ОСТАННІ ІСТОРІЇ</h2>    
                 </div> 
                 <Masonry
                     breakpointCols={3}
