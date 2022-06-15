@@ -1,3 +1,22 @@
+:root {
+  --background-color: rgb(248, 248, 248);
+  --font-color: #000;
+	--white-color: #fff;
+  --header-background-color: rgb(192, 227, 238);
+	--default-font: "Spectral", serif;	
+	--sm: 768px;
+}
+
+.hero-sections {
+	height: 100vh;
+	position: relative;
+	text-align: center;
+
+	@media (max-width: var(--sm)) {  
+		height: 500px;
+	}
+}
+
 .home-background {
     position: absolute;
     top: 0;
@@ -12,14 +31,80 @@
 		margin-left: 0px;
 	}
 }
-  
-.hero-sections {
-	height: 100vh;
-	position: relative;
-	text-align: center;
 
-	@media (max-width: var(--sm)) {  
-		height: 500px;
+.background-item-1 {
+	background: url("/assets/images/home-1.jpg");  
+	background-size:cover;  
+	height: 100%; 
+}
+  
+.background-item-2 {
+	background: url("/assets/images/home-2.jpg");  
+	background-size:cover;  
+	height: 100%;  
+}
+  
+.background-item-3 {
+	background: url("/assets/images/home-3.jpg");  
+	background-size:cover;  
+	height: 100%; 
+}
+  
+.background-item-4 {
+	background: url("/assets/images/home-4.jpg");  
+	background-size:cover;  
+	height: 100%;  
+}
+  
+.split {  
+	width: 25%;
+	background: var(--font-color);    
+	transform: translateZ(0);
+
+	@media (max-width: var(--sm)) {
+		width: 50%;        
+	}
+	@media (max-width: var(--sm)) {
+		&:nth-child(4) {
+			display: none;
+		}
+		&:nth-child(1) {
+			display: none;
+		}
+	}
+}
+
+.header-nav {     
+	font-weight: lighter;
+	font-size: 104px;
+	text-align: center;
+	margin-top: 26vh;
+	letter-spacing: 0px;  
+
+	@media (max-width: var(--sm)) {
+		font-size: 49px;
+		margin-top: 8vh;
+	} 
+}
+
+.header-nav span {
+	text-decoration: none;  
+	position: relative;
+}
+  
+.header-nav .nav-spacer {
+	display: inline-block;
+	width: 60px;
+	height: 1px;
+	background: var(--white-color);
+	margin-bottom: 23px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+	@media (max-width: var(--sm)) { 
+		display: block;
+		visibility: hidden;
+		margin-bottom: 5px;
 	}
 }
 
@@ -36,6 +121,18 @@
 		padding-right: 20px;
 		line-height: 25px;
 	}
+}
+
+.history-war {    
+	font-size: 42px;
+	text-align: center;
+	letter-spacing: 1.4px; 
+	overflow: hidden;     
+	padding-top: 50px;  
+
+	@media (max-width: var(--sm)) {  
+		font-size: 20px;
+	}    
 }
 
 .arrow {
@@ -64,9 +161,23 @@
 }
 
 .hero-sections svg {
+	display: block;
+	margin: 7px auto 0;
 	width: 18px;
 	height: 18px;
-	margin-top: 7px;
-	vertical-align: top;      
+	margin-top: 7px;	    
 }
   
+
+ 
+
+
+
+ 
+
+
+
+  
+
+
+
