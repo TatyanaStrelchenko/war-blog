@@ -11,10 +11,13 @@ const App =() => {
         <Stories />
         <section className="footer">
           <div className="container">
-           <iframe width="1200px" height="500px" src="https://www.youtube.com/embed/EEDFwUl08M8" title="YouTube video player"></iframe>
+           {/* <iframe width="1200px" height="500px" src="https://www.youtube.com/embed/EEDFwUl08M8" title="YouTube video player"></iframe> */}
               {/* <p className="footer-text">Більше історій про Війну</p> 
                 <div className="social-footer">             
                 </div>  */}
+            Хочеш розповісти свою історію?
+            Надсилай на пошту
+            <p>strelchenko.t.v@gmail.com</p>
           </div> 
         </section>
       </div> 
