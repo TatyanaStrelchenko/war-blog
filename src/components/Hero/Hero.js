@@ -18,16 +18,18 @@ const Hero = () => {
                     <div className="split">
                     <div className="background-item-4"></div>
                     </div>               
-                </div>     
-                <h1 className="history-war">ІСТОРІЇ ПРО ВІЙНУ</h1>               
-                <nav className="header-nav">
-                    <span className="bottom-hover  active">Люди</span>
-                    <span className="nav-spacer"></span>
-                    <span className="bottom-hover" >Історії</span>
-                    <span className="nav-spacer"></span>
-                    <span className="bottom-hover">Війна</span>
-                </nav> 
-                <p>Історії людей, що втекли від війни</p>
+                </div>   
+                <div className="text">
+                    <h1 className="history-war">ІСТОРІЇ ПРО ВІЙНУ</h1>               
+                    <nav className="header-nav">
+                        <span className="bottom-hover  active">Люди</span>
+                        <span className="nav-spacer"></span>
+                        <span className="bottom-hover" >Історії</span>
+                        <span className="nav-spacer"></span>
+                        <span className="bottom-hover">Війна</span>
+                    </nav> 
+                    <p>Історії людей, що втекли від війни</p>
+                </div>
                 <Link
                     activeClass="active"
                     to="section1"

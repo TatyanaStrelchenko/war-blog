@@ -15,6 +15,9 @@ const App =() => {
               {/* <p className="footer-text">Більше історій про Війну</p> 
                 <div className="social-footer">             
                 </div>  */}
+            Хочеш розповісти свою історію?
+            Надсилай на пошту
+            <p>strelchenko.t.v@gmail.com</p>
           </div> 
         </section>
       </div> 

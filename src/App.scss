@@ -1,20 +1,26 @@
-.footer {	
-	 	display: block; 	
-		text-align: center;		
-		background-color: var(--font-color);
+.footer {
+	display: block;
+	text-align: center;
+	background-color: var(--font-color);
+	padding: 60px 0;
+	color: white;
 
 	.img-ukraine {
-		background: url("assets/images/ukraine.png");  
-		background-size:cover;  
-		height: 200px; 
-		width: 200px; 
+		background: url("assets/images/ukraine.png");
+		background-size: cover;
+		height: 200px;
+		width: 200px;
 		margin: 0 auto 50px;
 		overflow: hidden;
-		border-radius: 50%;		 
+		border-radius: 50%;
 	}
 
 	.footer-text {
-		font-family: var(--default-font);     
-    	font-size: 45px;
-	}	
+		font-family: var(--default-font);
+		font-size: 45px;
+	}
+
+	a {
+		color: white;
+	}
 }
