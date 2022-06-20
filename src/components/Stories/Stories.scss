@@ -1,5 +1,5 @@
-$sm:768px;
-$md:1024px;
+
+@import './../../styles/variables.scss';
 
 .container-header {
 	font-family: "Akzidenz-Grotesk BQ";
@@ -25,9 +25,14 @@ $md:1024px;
 	h2 {
 		font-size: 52px;
 		letter-spacing: 5px;
-		margin-top: 0px	 
+		margin-top: 0;	 
+
+    @media (max-width: $sm) {  
+      font-size: 30px;
+    }
+   
 	}  		
-}
+
 
 
 .img-holder {
@@ -58,5 +63,14 @@ $md:1024px;
   .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
 	margin-bottom: 30px;
   } 
- 
 
+  .post-text {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    font-weight: bold;     
+    font-size: 18px;     
+    line-height: 28px;     
+    overflow: hidden;  
+  }
+}

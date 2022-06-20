@@ -6,9 +6,9 @@ import './Stories.scss'
 
 const Stories = () => {
     const breakpointColumnsObj = {
-        default: 4,
+        default: 3,
         1100: 3,
-        700: 2,
+        768: 2,
         500: 1
       };
     return (
