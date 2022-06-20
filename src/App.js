@@ -2,6 +2,8 @@ import './App.scss';
 import Hero from "./components/Hero"
 import Stories from './components/Stories';
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NCRMZH938E"></script>
+
 const App =() => {
 
   return (
