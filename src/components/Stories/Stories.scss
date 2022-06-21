@@ -2,18 +2,14 @@
 
 .container-header {
 	font-family: "Akzidenz-Grotesk BQ";
-	padding-bottom: 35px;
-	padding-top: 55px;
 	text-align: center;
-}
-
-.info-sections {
-	width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 
 .info-sections {
 	color: var(--font-color);
+	margin: 55px 0;
+	width: 100%;	
 
 	h1 {
 		font-size: 20px;
@@ -35,6 +31,10 @@
 .img-holder {
 	height: 450px;
 	overflow: hidden;
+
+	@media (max-width: $sm) {  
+		height: 250px;
+	}
 
 	img {
 		width: 100%;
@@ -69,13 +69,15 @@
 	margin-bottom: 30px;
   } 
 
-  .post-text {
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 10px;
+  .post-text {    
+    padding: 15px 35px 0;
     font-weight: bold;     
     font-size: 18px;     
     line-height: 28px;     
     overflow: hidden;  
+
+		@media (max-width: $md) {  
+      padding: 15px 20px 0;
+    }
   }
 }
