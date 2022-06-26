@@ -1,6 +1,8 @@
 import './Hero.scss';
 import { Link } from "react-scroll";
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NCRMZH938E"></script>
+
 const Hero = () => {
     return (
         <section className="hero-sections">
