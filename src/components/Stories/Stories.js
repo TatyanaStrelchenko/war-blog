@@ -16,7 +16,7 @@ const Stories = () => {
     const breakpointColumnsObj = {
         default: 3,
         1100: 2,       
-        500: 1
+        767: 1
     };
     return (
         <section className="info-sections" id="section1">        

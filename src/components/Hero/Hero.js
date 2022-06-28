@@ -20,9 +20,9 @@ const Hero = () => {
                     <div className="split">
                     <div className="background-item-4"></div>
                     </div>               
-                </div>   
+                </div>               
                 <div className="text">
-                    <h1 className="history-war">ІСТОРІЇ ПРО ВІЙНУ</h1>               
+                    <h1 className="history-war">ІСТОРІЇ ПРО ВІЙНУ</h1>                                     
                     <nav className="header-nav">
                         <span className="bottom-hover  active">Люди</span>
                         <span className="nav-spacer"></span>
