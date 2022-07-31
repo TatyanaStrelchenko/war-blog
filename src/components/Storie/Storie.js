@@ -9,8 +9,9 @@ const Storie = ({ image, text, i }) => {
   const numb = randomItem(items);
 
   const postTextClass = fullText
-    ? "post-text post-text__full"
-    : `post-text post-text__short post-text__short-${numb}`;
+    ? "post-text"
+    : `post-text post-text__short-${numb}`;
+    
   const buttonText = fullText ? "Свернуть" : "Развернуть";
 
   const handleClick = (id) => {
