@@ -32,7 +32,9 @@ const App = () => {
             <p className="footer-text">
               Хочеш розповісти свою історію? Надсилай на пошту
             </p>
-            <p>strelchenko.t.v@gmail.com</p>
+            <p onClick={() => (window.location = "strelchenko.t.v@gmail.com")}>
+              strelchenko.t.v@gmail.com
+            </p>
           </div>
         </section>
       </div>
