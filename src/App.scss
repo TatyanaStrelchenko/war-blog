@@ -1,27 +1,27 @@
 .footer {
-	display: block;
-	text-align: center;
-	background-color: var(--font-color);
-	padding: 60px 0;
-	color: white;
+  display: block;
+  text-align: center;
+  background-color: var(--font-color);
+  padding: 60px 0;
+  color: white;
 
-	// .img-ukraine {
-	// 	background: url("assets/images/ukraine.png");
-	// 	background-size: cover;
-	// 	height: 200px;
-	// 	width: 200px;
-	// 	margin: 0 auto 50px;
-	// 	overflow: hidden;
-	// 	border-radius: 50%;
-	// }
+  // .img-ukraine {
+  // 	background: url("assets/images/ukraine.png");
+  // 	background-size: cover;
+  // 	height: 200px;
+  // 	width: 200px;
+  // 	margin: 0 auto 50px;
+  // 	overflow: hidden;
+  // 	border-radius: 50%;
+  // }
 
-	.footer-text {
-		font-family: var(--default-font);
-		font-size: 20px;
-	}
+  .footer-text {
+    font-family: var(--default-font);
+    font-size: 20px;
+  }
 
-	.video-holder {
-		max-width: 500px;
-		margin: 0 auto 15px;
-	} 
+  .video-holder {
+    max-width: 500px;
+    margin: 0 auto 15px;
+  }
 }
