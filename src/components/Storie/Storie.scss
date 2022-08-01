@@ -14,11 +14,9 @@
 }
 
 .post-text__short {
-  // text-align: justify;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  letter-spacing: auto;
 }
 
 .post-text__short-1 {
