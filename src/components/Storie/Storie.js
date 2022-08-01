@@ -11,14 +11,14 @@ const Storie = ({ image, text, i }) => {
 
   const postTextClass = fullText
     ? "post-text"
-    : `post-text post-text__short-${numb}`;
+    : `post-text post-text__short post-text__short-${numb}`;
 
   const buttonText = fullText ? "Свернуть" : "Развернуть";
 
   const handleClick = () => {
     setFullText(!fullText);
     if (fullText) {
-      storieRef.current.scrollIntoView({ behavior: 'smooth' })
+      storieRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 

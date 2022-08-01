@@ -13,18 +13,26 @@
   }
 }
 
+.post-text__short {
+  // text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  letter-spacing: auto;
+}
+
 .post-text__short-1 {
-  max-height: 160px;
+  -webkit-line-clamp: 2;
 }
 
 .post-text__short-2 {
-  max-height: 214px;
+  -webkit-line-clamp: 6;
 }
 
 .post-text__short-3 {
-  max-height: 324px;
+  -webkit-line-clamp: 12;
 }
 
 .post-text__short-4 {
-  max-height: 464px;
+  -webkit-line-clamp: 14;
 }
