@@ -13,7 +13,7 @@ const Storie = ({ image, text, i }) => {
     ? "post-text"
     : `post-text post-text__short post-text__short-${numb}`;
 
-  const buttonText = fullText ? "Свернуть" : "Развернуть";
+  const buttonText = fullText ? "Згорнути" : "Розгорнути";
 
   const handleClick = () => {
     setFullText(!fullText);
