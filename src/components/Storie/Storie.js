@@ -1,17 +1,13 @@
 import React, { useState, useRef } from "react";
-import { randomItem } from "../../helpers";
 import "./Storie.scss";
 
-const Storie = ({ image, text, i }) => {
+const Storie = ({ image, text, stringsCount, i }) => {
   const [fullText, setFullText] = useState(false);
   const storieRef = useRef();
 
-  const items = [1, 2, 3, 4];
-  const numb = randomItem(items);
-
   const postTextClass = fullText
     ? "post-text"
-    : `post-text post-text__short post-text__short-${numb}`;
+    : `post-text post-text__short post-text__short-${stringsCount}`;
 
   const buttonText = fullText ? "Згорнути" : "Розгорнути";
 

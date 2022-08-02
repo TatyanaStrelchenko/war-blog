@@ -30,7 +30,7 @@ const Stories = () => {
           columnClassName="my-masonry-grid_column"
         >
           {data.map((item, i) => (
-            <Storie image={item.img} text={item.text} key={i} i={i}/>
+            <Storie image={item.img} text={item.text} stringsCount={item.stringsCount} key={i} i={i}/>
           ))}
         </Masonry>
       </div>
