@@ -1,6 +1,7 @@
 import "./App.scss";
 import Hero from "./components/Hero";
 import Stories from "./components/Stories";
+import CookieConsent from "react-cookie-consent";
 
 <script
   async
@@ -38,6 +39,15 @@ const App = () => {
           </div>
         </section>
       </div>
+      <CookieConsent
+        location="bottom"
+        cookieName="myAwesomeCookieName2"
+        style={{ background: "#000", padding: "0 20px" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        expires={150}
+      >
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
     </div>
   );
 };
